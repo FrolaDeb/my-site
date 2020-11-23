@@ -9,7 +9,7 @@ body {
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
 
-  background-position: center;
+  background-position: top-center;
 }
 
 .container {
@@ -33,16 +33,6 @@ body {
   background-position: left;
 }
 
-.page-header a:focus,
-.page-header a:hover {
-  border-bottom: 1px solid #8da2ed;
-  filter: hue-rotate(50deg);
-}
-
-.page-header a:active {
-  filter: hue-rotate(0);
-  opacity: 0.6;
-}
 
 .header-email {
   padding-left: 30px;
@@ -122,22 +112,16 @@ body {
   width: 16px;
   height: 28px;
   background-image: url("img/icon-scroll.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .user-image {
   margin: 0 0 32px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: center;
+
 }
 
-.user-image img {
-  width: 688px;
-  height: 400px;
-  margin-left: 16px;
-  object-fit: cover;
-}
+
 
 .intro .container div {
   position: relative;
@@ -148,9 +132,7 @@ body {
   min-height: 400px;
 }
 
-.intro .user-image + div {
-  margin-left: 600px;
-}
+
 
 .intro .container > div::before,
 .intro .container > div::after {
@@ -159,21 +141,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.intro .container div:nth-of-type(1)::before {
-  top: 0;
-  right: -120px;
-  width: 144px;
-  height: 64px;
-  background-image: url("img/decor-dots1.svg");
-}
 
-.intro .container div:nth-of-type(2)::before {
-  top: 0;
-  left: -120px;
-  width: 144px;
-  height: 64px;
-  background-image: url("img/decor-dots2.svg");
-}
+
+
 
 .intro h3,
 .portfolio h3 {
