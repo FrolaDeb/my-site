@@ -8,8 +8,8 @@ body {
   color: #222222;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
-  background-position-y: top;
-  background-position-x: calc(50vw + 16px);
+
+  background-position: center;
 }
 
 .container {
